@@ -1,0 +1,230 @@
+.main{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+   
+
+   
+}
+.emblem{
+    width: 415px;
+    height: 70px;;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    position: absolute;
+    
+
+}
+.rightsc{
+    width: 700px;
+    height: 70px;
+    background-color: beige;
+    
+}
+.text{
+    width: 180px;
+}
+
+.nav{
+
+width: 500px;
+height: auto;
+background-color: rgb(0, 0, 0);
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 5 8px;
+
+text-decoration: none;
+
+
+}
+.menu{
+    width: 100%;
+    list-style: none;
+    justify-content: right;
+    display: flex;
+    justify-content: ;
+    padding-left: 160px;
+}
+.menu li{
+
+    font-size: 32px;
+    margin-left: 40px;
+    
+}
+.menu li a{
+ font-size: 20px;
+ text-decoration: none;
+ color: #fff;
+ transition: 0.3s ease;
+ font-weight: bold;
+ font-family:  'Asap', sans-serif;;
+ 
+}
+.navbar{
+    
+    font-weight: bold;
+    justify-content: flex end;
+}
+.menu li a:hover{
+    color: red;
+    
+}
+#home{
+    color: #df0427;
+}
+#image{
+    margin-left: 180px;
+    vertical-align: middle;
+    
+    padding: 21px;
+    height: 90px;
+}
+#coffee{
+    width: 100%;
+    height: auto;
+    padding-top: 0px;
+}
+body{
+    background-color:rgb(33, 33, 33);
+    font-family:  'Asap', sans-serif;
+}
+.texts{
+    
+    width: 448px;
+    height: 292px;
+    
+    margin-left: 710px;
+}
+.para{
+    color: white;
+    font-size: 20px;
+    font-weight: solid;
+
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+#img{
+   width: 100px;
+   height: 150px;
+}
+
+/*
+.row2{
+    width: 240px;
+    height: 230px;
+    background-color: white;
+    display: flex;
+}
+    */
+.picture{
+    /*width: 240px;
+    height: 230px;
+    background-color: rgb(244, 9, 9);*/
+    /*background-color: #df0427;*/
+    height: 294px;
+    width: 565px;
+    padding: 30px;
+    background-image: url("kopiko.png");
+    background-size: cover;
+    
+}
+
+/*
+.paragraph{
+    width: 662px;
+    height: 266px;
+    background-color: rgb(24, 24, 238);
+    padding-left: 9px;
+    margin-left: 93px;
+}
+*/
+
+.row2 {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.paragraph {
+    padding: 30px;
+    background-color:black;
+}
+.paragraph h2{
+       font-weight: bold;
+       color: white;
+}
+.paragraph p{
+    font-size: 20px;
+    color: white;
+}.row3{
+    background-color: black;
+    background-image: url("https://kopiko.com.my/sites/default/files/images/Pack1Table_adjusted.jpg");
+    justify-content: center;
+    width: 100%;
+    height: 655px;
+}
+.sentense{
+    padding: 18px;
+    color: white;
+
+
+
+    width: 520px;
+    height: 400px;
+    background-color: none;
+    margin-top: 10px;
+    margin-left: 583px;
+    padding-top: 0.5px;
+    font-size: 1.35em;
+    letter-spacing: 0.5px;
+}
+
+.sentense h1{
+    font-size: 5em;
+    color: rgb(218, 26, 26);
+ font-family: 'helveticaneueregular', sans-serif;
+ text-transform: uppercase;
+}
+.sentense p{
+     color: black;
+     font-weight: solid;
+     font-size: 20px;
+}
+.row4{
+    background-color: black;
+    background-image: url(coffee\ bean\ background.jpg);
+    width: 100%;
+    height: 615px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.quote{
+    
+    width: 815px;
+    height: 400px;
+    background-color: none;
+    margin-top: 200px
+}
+
+.quote h1{
+    font-size: 3em;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 0.5px;
+}
+.quote p{
+    font-weight: 540;
+    font-size: 1.3em;
+    color: white;
+    letter-spacing: 0.5px;
+}
